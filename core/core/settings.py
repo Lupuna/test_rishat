@@ -22,7 +22,7 @@ load_dotenv(dotenv_path=dotenv_path)
 SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '92.63.67.98']
 
 
 INSTALLED_APPS = [
